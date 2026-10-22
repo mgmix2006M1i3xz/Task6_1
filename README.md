@@ -35,9 +35,11 @@
 
 #include <stdio.h>
 #include <locale.h>
+
 int main() {
     setlocale(LC_ALL, "RUS");
     int X, Y;
+    
     printf("Введите первое число X: ");
     scanf("%d", &X);
     printf("Введите второе число Y: ");
